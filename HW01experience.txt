@@ -1,3 +1,6 @@
+Laura Oliveto
+I pledge my honor that I have abided by the Stevens Honor System
+
 What challenges did you encounter with this assignment, if any?
 One challenge I had with this assignment was determining how I should go about testing the program knowing that there is an error within it. I wanted to ensure the fault was being found, while also making sure I was testing all the logic in the program at the same time.
 
