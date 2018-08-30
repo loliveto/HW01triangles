@@ -17,10 +17,11 @@ def classify_triangle(a,b,c):
 
     if a == b and b == c and a == c:
         name = 'Equilateral'
-    #this is where the fault lies, an improper check for isosceles
+    # This is where the fault lies, an improper check for isosceles.
+    # A proper check would look like: if a==b or a==c or b==c
     elif a == c and b == c:
         name = 'Isosceles'
-    #since the isosceles check is incorrect, this can also be faulty
+    # Since the isosceles check is incorrect, this can also be faulty
     else:
         name = 'Scalene'
     
